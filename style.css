@@ -1,12 +1,41 @@
 header{
-    display : inline flex;
-    justify-content: space-between;
-    align-items: center;
+    display : flex;
     padding : 20px;
-    background-color: brown;
+    align-items: right;
+    background-color: rgb(145, 125, 233);
 }
 .logoimg {
-    width: 0.5%;
+    width: 100px;
     height: auto;
+    float: left;
 }
+.logo {
+  overflow: hidden;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.logo h1 {
+    font-size: 30px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+  }
+  .logo h3 {
+    font-size: 0.9em;
+    color: #f6da51;
+    margin-top: 0%;
+    margin-left: 25px;
+  }
+  .navbar {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    justify-content: right;
+    margin-left: 900px;
+  }
+  nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #eae05a;
+  }
 
