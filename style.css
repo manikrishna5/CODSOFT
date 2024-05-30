@@ -30,9 +30,52 @@ nav a{
   background-size: cover;
 }
 .text{
-  background-color: rgb(240, 248, 255,0.7);
+  background-color: rgb(240, 248, 255,0.8);
 }
 .text h1 span{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "LXGW WenKai TC", cursive;
+  font-weight: 400;
+  font-style: normal;
   color:  rgb(7, 177, 245);
+}
+.text h1{
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+.text h2{
+  align-items: center;
+  margin-top: -15px;
+  margin-left: 40px;
+  margin-bottom: -10px;
+  color: rgb(67, 186, 67);
+}
+.text button{
+  background-color: rgb(7, 177, 245);
+  color: white;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  padding: 5px 10px; 
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  /*border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: #007bff;
+  font-family: sans-serif;
+  font-size: 16px;*/
+}
+.text button:hover{
+  background-color: rgb(226, 226, 43);
+  color: black;
+}
+.text h5{
+  display: inline-flex;
+  margin-left: 80px;  
+}
+body{
+  background-color: rgb(198, 228, 254);
 }
