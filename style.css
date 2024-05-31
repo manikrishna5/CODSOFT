@@ -30,11 +30,12 @@ nav a{
   height: 80vh; 
   width: 75vw;
   margin: 20px auto;
-  margin-top: 150px;
+  margin-top: 120px;
   background-image: url(images/backhome.jpg);
   background-size: cover;
   border-radius: 50px;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 .text{
   background-color: rgb(240, 248, 255,0.8);
@@ -90,14 +91,60 @@ body{
   background-color: white;
 }
 #readmore {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Merriweather", serif;
   color: white;
+  background-color: rgb(15, 77, 146,0.6);
+  width: 85.5vw;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 16px;
+  margin-top: -10px;
 }
 #readmore h3{
   font-family: "Playfair Display", serif;
   color: yellow;
+ 
 }
 #readmore h4{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Playfair Display", serif;
   color: rgb(2, 247, 2);
+}
+#readmore .p1{
+  width: 85vw;
+  background-color: rgb(240, 248, 255,0.1);
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 15px;
+  overflow: hidden;
+  word-spacing: 10px;
+}
+#readmore .p2{
+  width: 85vw;
+  background-color: rgb(240, 248, 255,0.1);
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 15px;
+  overflow: hidden;
+  word-spacing: 10px;
+  margin-top: 10px;
+}
+#readmore .p3{
+  width: 85vw;
+  background-color: rgb(240, 248, 255,0.1);
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 15px;
+  overflow: hidden;
+  word-spacing: 10px;
+  margin-top: 10px;
+}
+#readmore .p4{
+  width: 85vw;
+  background-color: rgb(240, 248, 255,0.1);
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 15px;
+  overflow: hidden;
+  word-spacing: 10px;
+  margin-top: 10px;
 }
