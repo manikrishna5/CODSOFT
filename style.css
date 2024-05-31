@@ -83,3 +83,21 @@ nav a{
 body{
   background-color: rgb(15, 77, 146,0.5);
 }
+#readmore span{
+  font-family: "LXGW WenKai TC", cursive;
+  font-style: normal;
+  color:  rgb(7, 177, 245);
+  background-color: white;
+}
+#readmore {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+#readmore h3{
+  font-family: "Playfair Display", serif;
+  color: yellow;
+}
+#readmore h4{
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(2, 247, 2);
+}
