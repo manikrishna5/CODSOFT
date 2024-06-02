@@ -218,3 +218,29 @@ body{
   background-image: url(images/pngimg.com\ -\ world_map_PNG28.png);
   overflow: hidden;
 }
+.soc1, .soc2, .soc3, .soc4{
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 0;
+  width: 17%;  
+}
+footer .fot1 a{
+  margin-left: 10px;
+  text-decoration: none;
+} 
+.fot1{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+footer{
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: aliceblue;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.fot2 h5{
+  margin-top: 5px;
+}
