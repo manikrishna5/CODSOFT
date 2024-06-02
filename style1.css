@@ -2,7 +2,9 @@ header{
   display : flex;
   justify-content: space-between;
   align-items: center;
-  background-color: aliceblue;
+  background-color:aliceblue;
+  background-image: url(images/pngimg.com\ -\ world_map_PNG28.png);
+  background-size: cover;
   position: fixed;
   top: 0;
   left: 0;
