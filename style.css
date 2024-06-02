@@ -60,7 +60,7 @@ nav a{
   /*margin-left: 40px;
   margin-bottom: -10px;*/
   font-size: 30px;
-  color: rgb(67, 186, 67);
+  color: rgb(0, 0, 0);
 }
 .text h5:hover{
   background-color: rgb(226, 226, 43);
@@ -154,4 +154,8 @@ body{
   overflow: hidden;
   word-spacing: 10px;
   margin-top: 10px;
+}
+#about h1{
+  background-color:rgb(240, 248, 255,0.8);
+  
 }
