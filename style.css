@@ -100,12 +100,14 @@ body{
 #readmore, #about .abb{
   font-family: "Roboto", sans-serif;
   color: white;
-  background-color: rgb(15, 77, 146,0.6);
+  background-color: rgb(15, 77, 146,0.9);
   width: 85.5vw;
   margin: 0 auto;
   padding: 5px;
   border-radius: 16px;
   margin-top: -10px;
+  background-image: url(images/pngimg.com\ -\ world_map_PNG28.png);
+  overflow: hidden;
 }
 #readmore h3{
   font-family: "Playfair Display", serif;
@@ -175,4 +177,42 @@ body{
 }
 #about img{
   border-radius: 30px;
+}
+#services h1{
+  display: flex;
+  color: white;
+  background-color: rgb(15, 77, 146,0.6);
+  padding: 0px 90px;
+  background-size: 100%;
+  background-position-x: 0;
+}
+#services .ser1, #services .s2, #services .s3{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(240, 248, 255,0.1);
+  font-family: "Roboto", sans-serif;
+  width: 25%;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+#services img{
+  margin-top: 10px;
+  border-radius: 20px;
+}
+#services h3{
+  margin-top: 5px;
+  color: yellow;
+}
+#services .sb{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(15, 77, 146,0.9);
+  width: 85.5vw;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 16px;
+  background-image: url(images/pngimg.com\ -\ world_map_PNG28.png);
+  overflow: hidden;
 }
